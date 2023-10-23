@@ -1,0 +1,130 @@
+1 sudo apt update
+2.sudo apt-get install git
+3.$ sudo git --version
+in terminal (lab)
+4.git config --global user.email" github email id "
+5.git config --global user.name " github username"
+ then go to the website www.github.com
+ 
+6.login or create new repositories on github
+7.create new repository;
+8.create new folder 
+9.create new file and some demo text
+10.open terminal and type git init  
+ls -a or (Control +H)
+
+vi demo.txt 
+11.git add status
+12. git add . (. for all files or we can use any specific file name)
+13. git status to check
+14.git commit -m "first commit"
+15.username and password or 
+ add your access token number
+ 
+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
+ (Go to the github.com then setting then developer setting then add token) 
+16.git config --global credential.helper cache
+17. copy from github and push 
+18.git push -u origin master
+
+Lets add 1 more file to the folder  to check and track the commit
+------------------------------------------
+1.git status  to show any commit any pending
+2. then create new file to check new file status showing or not
+3. add the file to the staging 
+4. commit and push
+
+--------------------------------------------------------
+
+Lets do changes to the file then check the status
+
+1.git status
+2.git commit -m "whatever you want to keep"
+3.git push -u origin master
+
+
+
+Rollback to the previous commit:
+-------------------------------
+
+run ls -a
+
+git checkout commit code hash
+
+
+Branching:
+----------
+
+we can create branch by using branch keyword
+
+1.git branch testing
+
+how to check
+2.git branch 
+3.git checkout <branchname>
+example git checkout testing
+
+if you want to create and switch  then use -b
+for example git checkout -b sayeed/dev
+
+1. do changes to the existing file
+
+
+Merging:
+1.git merge sayeed/dev
+
+2.ignore file
+--------------------------
+touch .gitignore
+
+
+collabration:
+--------------
+
+1. By inviting
+go to the setting->collabration then enter the username or emailid
+
+2.Fork and then request 
+
+fork it then make changes 
+
+then owner of the repo can merge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git config --global user.name "psdba"
+git config --global user.email "psdba.md@gmail.com"
